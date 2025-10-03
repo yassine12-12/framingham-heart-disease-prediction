@@ -110,28 +110,6 @@ The project includes a comprehensive fairness audit examining gender-based dispa
 - **Female Recall**: Comparable performance, no significant bias
 - **Conclusion**: Models demonstrate fair performance across gender groups
 
-## 📁 Project Structure
-
-```
-framingham-heart-disease-prediction/
-│
-├── framingham_pipeline.ipynb    # Main analysis notebook
-├── framingham.csv               # Dataset
-├── README.md                    # Project documentation
-├── requirements.txt             # Python dependencies
-│
-├── figures/                     # Generated visualizations
-│   ├── missing_data_matrix.png
-│   ├── correlation_matrix.png
-│   ├── roc_curves.png
-│   ├── confusion_matrices.png
-│   └── fairness_audit.png
-│
-└── models/                      # Saved model artifacts
-    ├── svm_best_model.pkl
-    ├── xgboost_best_model.pkl
-    └── logistic_regression_best_model.pkl
-```
 
 ## 🚀 Getting Started
 
@@ -177,17 +155,6 @@ The project generates comprehensive visualizations including:
 - **Evaluation Metrics**: Confusion matrices and threshold analysis
 - **Fairness Assessment**: Gender-based performance comparison
 
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
-
-### Potential Improvements
-- [ ] Feature engineering (interaction terms, polynomial features)
-- [ ] Additional algorithms (Random Forest, Neural Networks)
-- [ ] Advanced sampling techniques (ADASYN, BorderlineSMOTE)
-- [ ] External validation on different populations
-- [ ] Time-to-event analysis (survival models)
-- [ ] Explainability features (SHAP, LIME)
 
 ## 📄 License
 
@@ -199,11 +166,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **Kaggle Community**: For dataset accessibility and documentation
 - **Scikit-learn**: For comprehensive machine learning tools
 - **Medical Research Community**: For establishing CHD risk factors
-
-## 📞 Contact
-
-For questions or collaborations, please open an issue or contact [your-email@example.com](mailto:your-email@example.com).
-
----
-
-**Note**: This project is for educational and research purposes. Always consult healthcare professionals for medical decisions.
