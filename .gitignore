@@ -156,3 +156,7 @@ Desktop.ini
 # Figures directory (if generated)
 figures/
 plots/
+
+# But include key figures for README
+!figures/all_roc_curves.png
+!figures/target_class_distribution.png
