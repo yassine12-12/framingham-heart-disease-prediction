@@ -88,6 +88,16 @@ This project develops and evaluates machine learning models to predict the 10-ye
 ✅ **Fairness**: No significant gender bias detected  
 ⚠️ **Trade-off**: High recall comes with lower precision (more false positives)
 
+### Key Visualizations
+
+#### 1. Model Performance Comparison - ROC Curves
+![ROC Curves](figures/all_roc_curves.png)
+*ROC curves comparing the three machine learning models. SVM shows the highest AUC (0.698), indicating superior discriminative ability for CHD risk prediction.*
+
+#### 2. Class Distribution Analysis
+![Target Distribution](figures/target_class_distribution.png)
+*Distribution of the target variable showing significant class imbalance (~15% positive CHD cases), justifying the use of SMOTEENN oversampling and recall optimization.*
+
 ## 🏥 Clinical Implications
 
 ### Threshold Selection (0.10 vs 0.50)
